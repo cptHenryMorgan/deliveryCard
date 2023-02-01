@@ -18,7 +18,7 @@ public class AppCardDeliveryTaskTestV1 {
     public void shouldBeSuccessfullComplited() {
         open("http://localhost:9999/");
         $x("//span[@data-test-id='city']//input").setValue("Волгоград");
-        String currentDate = dataGenerate(3,"dd.MM.yyyy");
+        String currentDate = dataGenerate(4,"dd.MM.yyyy");
         $x("//span[@data-test-id='date']//input").sendKeys(Keys.chord(Keys.CONTROL, Keys.SHIFT, Keys.ARROW_LEFT), Keys.DELETE);
         $x("//span[@data-test-id='date']//input").sendKeys(currentDate);
         $x("//span[@data-test-id='name']//input").setValue("Петров-Сидоров Иван");
