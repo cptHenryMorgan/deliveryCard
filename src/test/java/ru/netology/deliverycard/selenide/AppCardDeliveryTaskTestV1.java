@@ -1,4 +1,5 @@
-package ru.netology.deliveryCard.selenide;
+package ru.netology.deliverycard.selenide;
+
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
